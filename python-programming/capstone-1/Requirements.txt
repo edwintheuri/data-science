@@ -1,4 +1,6 @@
+python 
 Sqlite3
 re
+streamlit-1.57.0
 
 
