@@ -1,7 +1,11 @@
 1. What is the problem you are solving?
 Businesses or your audience care about problems. Make the problem clear and relatable
 
-- Nutrition 
+- People consume food but lack insight into nutritional sufficiency
+
+many people don't clearly track this leading to :
+- micro nutrients deficiencies
+- poor dierty balance
 
 2. What tools did you use?
 Python? GeoPanadas? Google Big Query?
@@ -10,9 +14,11 @@ Dive deep in this in your technical  article
 
 Python - Logic
 
-Tkinter - Interface
+Streamlit - Interface
 
 Sqlite - For storing data 
+
+csv - for data 
 
 Vs Code - Developement
 
@@ -21,11 +27,15 @@ Vs Code - Developement
 Don’t just say “dashboard done.”
 Share the “aha!” moments, they matter more that the visuals
 
-Can we really get nutritiuous food   
+ 
 
-I want to solve the issue to get better value of food 
+This application aims is to :
+- Track food intake
+- Compute nutritional totals
+- Compare against recommended baselines
+- provide feedback
 
-According to insights from  there is a huge number of  people that are malnutritioned from nutrients like Zinc.
+This shows how food is not just consumed but quantified  -> mapped -> evaluated  
 
 
 
@@ -34,8 +44,19 @@ Be specific. Think money saved, process improves, better decisions made
 That’s your real value
 
  
-- Better community health improves the wellbeing of the community
+Individuals
 
-- Businesses that deal with body issues
+- Better macro and micro nutrients intake
+- Improved dierty decisions
+- early detection of nutrition imbalance
 
-- Companies with wellness checks can have better productivity 
+Communities
+
+- Improved public health awareness
+- Potential deficiency reduction 
+
+Organizations
+
+- Improved wellness tracking for the employees
+- Data driven nutrition programs
+
