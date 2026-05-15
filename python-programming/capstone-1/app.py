@@ -2,6 +2,7 @@ import sqlite3 as s
 import re
 import streamlit as st
 import csv
+import os
 
 
 
@@ -39,6 +40,7 @@ db_access.execute('''
                 ''')
 
 
+csv_path = os.path.join(os.path.dirname(__file__), "food.csv")
 with open("food.csv", newline="") as file:
     reader = csv.DictReader(file)
 
